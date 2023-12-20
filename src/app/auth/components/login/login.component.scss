@@ -1,0 +1,101 @@
+.container {
+    margin-top: 70px;
+    background-color: #ffffff8d;
+    max-width: 400px;
+    padding: 20px 50px;
+    background-size: 300% 300%;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.658)25%, rgba(238, 243, 255, 0.701) 51%, #fde6efb3 100%);
+    -webkit-animation: AnimateBG 20s ease infinite;
+            animation: AnimateBG 20s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  h1 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(78, 78, 211);
+    text-align: center;
+  }
+  
+  a {
+    color: black;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(78, 78, 211);
+  }
+  button {
+    margin-top: 40px;
+    background-color: rgb(78, 78, 211);
+    transition: 0.3s;
+    
+  }
+  button:hover {
+    background-color: rgb(73, 73, 247);
+  }
+  
+  .adiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    position: relative;
+  }
+  
+  .adiv p{
+    
+    border-bottom: 2px solid black ;
+    width: 50%;
+    margin-bottom: 0;
+    padding: 10px 0;
+  }
+  
+  .adiv a{
+    
+    border-bottom: 1px solid black ;
+    width: 50%;
+    padding: 10px 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
