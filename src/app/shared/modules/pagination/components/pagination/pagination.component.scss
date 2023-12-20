@@ -1,0 +1,9 @@
+.page-link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.page-item.active .page-link, .page-link:focus .page-link:hover{
+    background-color: rgb(89, 53, 231);
+}

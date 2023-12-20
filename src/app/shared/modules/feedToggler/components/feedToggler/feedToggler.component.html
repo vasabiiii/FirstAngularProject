@@ -1,0 +1,32 @@
+<div class="feed-toggle">
+  <ul class="nav nav-pills outline-active">
+    <li class="nav-item" *ngIf="isLoggedIn$ | async">
+      <a [routerLink]="['/feed']" class="nav-link" routerLinkActive="active">
+        Мои посты
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a
+        [routerLink]="['/']"
+        class="nav-link"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}"
+      >
+        Все посты
+      </a>
+    </li>
+
+    <li class="nav-item" *ngIf="tagNameProps">
+      <a
+        [routerLink]="['/tags', tagNameProps]"
+        class="nav-link"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}"
+      >
+      <i class="ion-pound"></i>
+        {{ tagNameProps }}
+      </a>
+    </li>
+  </ul>
+</div>
